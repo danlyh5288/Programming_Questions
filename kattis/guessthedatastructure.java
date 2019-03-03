@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class guessthedatastructure_260788720 {
+public class guessthedatastructure {
 
 
     public static void main(String[] args) {
