@@ -106,15 +106,12 @@ class Kruskal{
             }
             System.out.println(weight);
             // print mst edges by lexical order
-            outputs.sort(new Comparator<Output>() {
-                @Override
-                public int compare(Output o1, Output o2) {
-                    if(o1.source == o2.source) {
-                        return o1.target - o2.target;
-                    }
-                    else{
-                        return o1.source - o2.source;
-                    }
+            outputs.sort((o1, o2) -> {
+                if(o1.source == o2.source) {
+                    return o1.target - o2.target;
+                }
+                else{
+                    return o1.source - o2.source;
                 }
             });
             for (Output o : outputs) {
