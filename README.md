@@ -1,3 +1,3 @@
 # Programming_Questions
 
-Collections of programming questions I've done from Kattis, LintCode and LeetCode.
+Collections of programming questions I've done from Kattis
